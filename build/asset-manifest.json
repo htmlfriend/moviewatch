@@ -1,13 +1,13 @@
 {
-  "main.css": "/getMovieByReact/static/css/main.57c5ce0f.chunk.css",
-  "main.js": "/getMovieByReact/static/js/main.4a0521f5.chunk.js",
-  "main.js.map": "/getMovieByReact/static/js/main.4a0521f5.chunk.js.map",
-  "static/js/1.bf5c40ba.chunk.js": "/getMovieByReact/static/js/1.bf5c40ba.chunk.js",
-  "static/js/1.bf5c40ba.chunk.js.map": "/getMovieByReact/static/js/1.bf5c40ba.chunk.js.map",
-  "runtime~main.js": "/getMovieByReact/static/js/runtime~main.71d282a4.js",
-  "runtime~main.js.map": "/getMovieByReact/static/js/runtime~main.71d282a4.js.map",
-  "static/css/main.57c5ce0f.chunk.css.map": "/getMovieByReact/static/css/main.57c5ce0f.chunk.css.map",
-  "index.html": "/getMovieByReact/index.html",
-  "precache-manifest.85b48e1ccf85f4b12af2896ef6e77fc3.js": "/getMovieByReact/precache-manifest.85b48e1ccf85f4b12af2896ef6e77fc3.js",
-  "service-worker.js": "/getMovieByReact/service-worker.js"
+  "main.css": "/getmoviebyreact/static/css/main.57c5ce0f.chunk.css",
+  "main.js": "/getmoviebyreact/static/js/main.07ac3852.chunk.js",
+  "main.js.map": "/getmoviebyreact/static/js/main.07ac3852.chunk.js.map",
+  "static/js/1.bf5c40ba.chunk.js": "/getmoviebyreact/static/js/1.bf5c40ba.chunk.js",
+  "static/js/1.bf5c40ba.chunk.js.map": "/getmoviebyreact/static/js/1.bf5c40ba.chunk.js.map",
+  "runtime~main.js": "/getmoviebyreact/static/js/runtime~main.f31fa70f.js",
+  "runtime~main.js.map": "/getmoviebyreact/static/js/runtime~main.f31fa70f.js.map",
+  "static/css/main.57c5ce0f.chunk.css.map": "/getmoviebyreact/static/css/main.57c5ce0f.chunk.css.map",
+  "index.html": "/getmoviebyreact/index.html",
+  "precache-manifest.993fbbade31ce6fad6a07f72e32d0a3e.js": "/getmoviebyreact/precache-manifest.993fbbade31ce6fad6a07f72e32d0a3e.js",
+  "service-worker.js": "/getmoviebyreact/service-worker.js"
 }

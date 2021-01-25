@@ -1,7 +1,6 @@
 {
   "name": "create-react-app",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "axios": "^0.21.1",
     "fetch": "^1.1.0",

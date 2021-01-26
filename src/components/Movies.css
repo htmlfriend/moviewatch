@@ -12,6 +12,7 @@ width: 80%;
 	display: flex;
 	flex-direction: column;
 	align-self: stretch;
+	align-items: center;
 	width: 45%;
 	background-color: #fff;
 	align-items: flex-start;
@@ -66,12 +67,9 @@ box-shadow: 0 13px 27px -5px rgba(50,50,93,0.25),
 .movie .movie__column {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
-}
-
-.torrents {
 	justify-content: space-around;
 }
+
 
 .torrents__torent > a{
 	font-size: 18px;
@@ -79,7 +77,12 @@ box-shadow: 0 13px 27px -5px rgba(50,50,93,0.25),
 	font-weight: bold;
 }
 
-.movie .movie__summary {
-	flex-grow: 1;
-	align-self: auto;
+.torrents {
+	width: 100%;
+	justify-content: center;
+}
+
+.torrents li:nth-child(2n) {
+	margin-left: 15px;
+	margin-right: 15px;
 }

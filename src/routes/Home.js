@@ -22,7 +22,6 @@ class Home extends Component {
       isLoading: false,
       movies,
     });
-    console.log(movies);
   };
 
   componentDidMount() {

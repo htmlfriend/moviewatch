@@ -4,6 +4,9 @@ import "./Movies.css";
 import { Link } from "react-router-dom";
 
 export class Movies extends Component {
+  sliceSummary(summary) {
+    return summary.slice(0, 140);
+  }
   render() {
     const {
       id,
@@ -43,18 +46,16 @@ export class Movies extends Component {
               })}
             </ul>
             <h4 className='movie__year'>{year}</h4>
-            <p className='movie__summary'>{summary.slice(0, 140)}....</p>
-            <ul className='torrents'>
-              {torrents.map((torrent, index) => (
-                <li className='torrents__torent'>
-                  <a key={index} href={torrent.url}>
-                    Download
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <p className='movie__summary'>{this.sliceSummary(summary)}....</p>
           </div>
         </Link>
+        <ul className='torrents'>
+          {torrents.map((torrent, index) => (
+            <li key={index} className='torrents__torent'>
+              <Link to={torrent.url}>Download</Link>
+            </li>
+          ))}
+        </ul>
       </div>
     );
   }
